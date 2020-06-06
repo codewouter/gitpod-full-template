@@ -1,9 +1,16 @@
+.mainBody {
+    background: url("/assets/images/mordorlandscape.jpg");
+    background-position: 75% 15%;
+    background-repeat: no-repeat;
+}
+
 .mainHeader {
     font-family: 'Lucida Sans', sans-serif;
     font-size: 1.25rem;
     font-style: italic;
     border: 3px solid purple;
     height: 10vh;
+    text-align: center;
 }
 
 .enemyBox {
@@ -20,5 +27,6 @@
 .enemyImage {
     width: 100%;
     height: auto;
+    border: 3px solid purple;
 }
 
